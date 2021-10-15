@@ -19,7 +19,7 @@ function Card(props) {
 
         After all these prosesses return the page as props.children.
         Why it is children because I edited the parent page where Expenses.js and 
-        ExpenseItem.js and return that page as children.
+        ExpenseItem.js and return both pages as children.
 
         This is how we use props in React
     */
