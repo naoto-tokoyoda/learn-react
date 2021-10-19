@@ -30,9 +30,14 @@ function App() {
     },
   ];
 
+  const addExpenseHandler = expense => {
+    console.log("in app js");
+    console.log(expense)
+  }
+
   return (
     <div className="App">
-      <NewExpense />
+      <NewExpense onAddExpense={addExpenseHandler}/>
       {/* 
 
         Everything is ok the name of "items". 
